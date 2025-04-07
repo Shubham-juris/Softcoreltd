@@ -1,12 +1,14 @@
-import { useState } from 'react';
 import './App.css';
+import Home from './component/common/Home';
+import ContactUs from './component/common/ContactUs';
+import Footer from './component/common/Footer';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1>Vite + React</h1>
+     <Home/>
+     <ContactUs/>
+     <Footer/>
     </>
   );
 }
