@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../../assets/navbar/logo.png";
 import img from "../../assets/navbar/img1.jpg";
+import img1 from "../../assets/navbar/img.jpg";
+import img2 from "../../assets/navbar/img2.jpg";
 
 const Home = () => {
   return (
@@ -8,8 +10,7 @@ const Home = () => {
       <div
         className="min-h-screen bg-cover bg-center flex items-center justify-center relative"
         style={{
-          backgroundImage:
-            "url('/src/assets/navbar/img.jpg')",
+          backgroundImage: `url(${img1})`,
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -33,7 +34,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* About Section */}
       <div className="mt-10 md:mt-20 px-4 md:px-10 text-center">
         <h2 className="text-2xl md:text-4xl font-semibold text-red-500">
           About Softcore Technologies
@@ -51,39 +51,32 @@ const Home = () => {
           <h3 className="text-lg md:text-xl text-center font-semibold">
             Our Mission
           </h3>
-          <p className="mt-2 text-sm md:text-base"style={{ color: '#32CD32' }}>
+          <p className="mt-2 text-sm md:text-base" style={{ color: "#32CD32" }}>
             Soft Core Technology": "Empowering businesses through innovative and
             reliable software solutions. We strive to deliver cutting-edge
             technology that drives digital transformation."Soft Core Technology,
             we craft smart, scalable tech solutions to simplify complex
             challenges. Our mission is to fuel progress through innovation and
             integrity.
-
-            
           </p>
         </div>
       </div>
 
-      {/* Coming Soon Section */}
       <div
-  className="relative w-full h-[20vh] md:h-[50vh] flex items-center justify-center bg-cover bg-center"
-  style={{
-    backgroundImage:
-      "url('/src/assets/navbar/img2.jpg')",
-  }}
->
-
-  <div className="relative text-center text-white px-4 md:px-6">
-  <h1 className="text-xl md:text-5xl font-bold drop-shadow-lg mb-30  px-4 py-2 rounded">
-  Customer satisfaction is  our top priority
-</h1>
-  <h1 className=" md:text-1xl font-bold drop-shadow-lg bg-black bg-opacity-10 px-4 py-2 rounded">
-  Review coming soon
-</h1>
-
-  </div>
-</div>
-
+        className="relative w-full h-[20vh] md:h-[50vh] flex items-center justify-center bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${img2})`,
+        }}
+      >
+        <div className="relative text-center text-white px-4 md:px-6">
+          <h1 className="text-xl md:text-5xl font-bold drop-shadow-lg mb-30  px-4 py-2 rounded">
+            Customer satisfaction is our top priority
+          </h1>
+          <h1 className=" md:text-1xl font-bold drop-shadow-lg bg-black bg-opacity-10 px-4 py-2 rounded">
+            Review coming soon
+          </h1>
+        </div>
+      </div>
     </>
   );
 };

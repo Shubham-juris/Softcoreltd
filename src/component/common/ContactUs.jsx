@@ -3,7 +3,6 @@ import React from 'react';
 const ContactUs = () => {
   return (
     <>
-      {/* Section Heading */}
       <div className="mt-10 md:mt-20 text-center px-4">
         <h2 className="text-2xl md:text-5xl font-semibold text-red-500">
           Contact Us
@@ -11,7 +10,6 @@ const ContactUs = () => {
         <div className="w-16 mx-auto border-b-2 border-gray-300 my-4"></div>
       </div>
 
-      {/* Contact Info & Map */}
       <div className="bg-white py-10 px-4 md:px-10 text-center">
         <h2 className="text-lg md:text-xl font-semibold mb-2">
           Questions or Comments?
@@ -21,7 +19,6 @@ const ContactUs = () => {
           will get back to you soon.
         </p>
 
-        {/* Address */}
         <div className="mb-6">
           <h3 className="text-base md:text-lg font-semibold">
             Softcore Technologies
@@ -37,7 +34,6 @@ const ContactUs = () => {
           </a>
         </div>
 
-        {/* Hours */}
         <div className="mb-6">
           <h4 className="font-medium text-gray-700 text-sm md:text-base">
             Hours
@@ -50,12 +46,10 @@ const ContactUs = () => {
           </p>
         </div>
 
-        {/* CTA Button */}
         <button className="bg-orange-600 text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition mb-10">
           GET IN TOUCH
         </button>
 
-        {/* Embedded Google Map */}
         <div className="w-full h-80 md:h-96">
           <iframe
             title="Softcore Technologies Location"
