@@ -9,7 +9,7 @@ const Footer = () => {
         <h2 className="text-3xl md:text-5xl font-bold text-red-600 mb-4">
           Social
         </h2>
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-10">
           <a
             href="https://facebook.com"
             target="_blank"

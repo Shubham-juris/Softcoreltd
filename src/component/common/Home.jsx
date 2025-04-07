@@ -27,7 +27,7 @@ const Home = () => {
           <p className="mb-6 text-base md:text-lg">
             Discover innovative software solutions for your business needs.
           </p>
-          <button className="bg-white text-black font-semibold py-2 px-5 md:py-3 md:px-6 rounded hover:bg-gray-200 transition">
+          <button className="bg-white mb-2 mt-5 text-black font-semibold py-2 px-5 md:py-3 md:px-6 rounded hover:bg-gray-200 transition">
             GET STARTED TODAY
           </button>
         </div>
@@ -41,7 +41,7 @@ const Home = () => {
         <div className="w-16 mx-auto border-b-2 border-gray-300 my-4"></div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8 px-4 md:px-10 mb-10">
+      <div className="flex flex-col mt-15 md:flex-row items-center justify-center gap-8 px-4 md:px-10 mb-10">
         <img
           src={img}
           alt="Development"
@@ -73,7 +73,7 @@ const Home = () => {
 
   <div className="relative text-center text-white px-4 md:px-6">
   <h1 className="text-xl md:text-5xl font-bold drop-shadow-lg mb-30  px-4 py-2 rounded">
-  Customer satisfation is  our top priority
+  Customer satisfaction is  our top priority
 </h1>
   <h1 className=" md:text-1xl font-bold drop-shadow-lg bg-black bg-opacity-10 px-4 py-2 rounded">
   Review coming soon
