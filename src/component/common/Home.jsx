@@ -58,6 +58,8 @@ const Home = () => {
             we craft smart, scalable tech solutions to simplify complex
             challenges. Our mission is to fuel progress through innovation and
             integrity.
+
+            
           </p>
         </div>
       </div>
