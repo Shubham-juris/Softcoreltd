@@ -61,22 +61,23 @@ const Home = () => {
           </p>
         </div>
       </div>
+   {/* customer Service section */}
+   <div
+  className="w-full flex items-center justify-center bg-cover bg-center py-12 px-4 md:py-24 md:px-10 text-white text-center"
+  style={{
+    backgroundImage: `url(${img2})`,
+  }}
+>
+  <div className="max-w-4xl w-full">
+    <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-6">
+      Customer satisfaction is our top priority
+    </h1>
+    <button className="bg-black bg-opacity-80 text-white px-6 py-3 text-sm sm:text-base rounded hover:bg-opacity-100 transition">
+      Review coming soon
+    </button>
+  </div>
+</div>
 
-      <div
-        className="relative w-full h-[20vh] md:h-[50vh] flex items-center justify-center bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${img2})`,
-        }}
-      >
-        <div className="relative text-center text-white px-4 md:px-6">
-          <h1 className="text-xl md:text-5xl font-bold drop-shadow-lg mb-30  px-4 py-2 rounded">
-            Customer satisfaction is our top priority
-          </h1>
-          <h1 className=" md:text-1xl font-bold drop-shadow-lg bg-black bg-opacity-10 px-4 py-2 rounded">
-            Review coming soon
-          </h1>
-        </div>
-      </div>
     </>
   );
 };
