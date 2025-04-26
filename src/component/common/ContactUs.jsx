@@ -3,7 +3,7 @@ import React from 'react';
 const ContactUs = () => {
   return (
     <>
-      <div className="mt-10 md:mt-20 text-center px-4">
+      <div id='contact' className="mt-10 md:mt-20 text-center px-4">
         <h2 className="text-2xl md:text-5xl font-semibold text-red-500">
           Contact Us
         </h2>

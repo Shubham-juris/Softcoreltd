@@ -28,11 +28,15 @@ const Home = () => {
           <p className="mb-6 text-base md:text-lg">
             Discover innovative software solutions for your business needs.
           </p>
-          <button className="bg-white mb-2 mt-5 text-black font-semibold py-2 px-5 md:py-3 md:px-6 rounded hover:bg-gray-200 transition">
+        <a href='#contact'>
+        <button className="bg-white mb-2 mt-5 text-black font-semibold py-2 px-5 md:py-3 md:px-6 rounded hover:bg-gray-200 transition">
             GET STARTED TODAY
           </button>
+        </a> 
         </div>
       </div>
+<div className="max-w-7xl flex flex-col mx-auto">
+
 
       <div className="mt-10 md:mt-20 px-4 md:px-10 text-center flex flex-col mx-auto justify-center max-w-7xl">
         <h2 className="text-2xl md:text-4xl font-semibold text-red-500">
@@ -41,7 +45,7 @@ const Home = () => {
         <div className="w-16 mx-auto border-b-2 border-gray-300 my-4"></div>
       </div>
 
-      <div className="flex flex-col mt-15 md:flex-row items-center justify-center gap-8 px-4 md:px-10 mb-10">
+      <div className="flex flex-col  md:flex-row items-center justify-center gap-8 px-4 md:px-10 mb-10">
         <img
           src={img}
           alt="Development"
@@ -60,6 +64,7 @@ const Home = () => {
             integrity.
           </p>
         </div>
+      </div>
       </div>
    {/* customer Service section */}
    <div
