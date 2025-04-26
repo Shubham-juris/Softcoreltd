@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -24,6 +24,22 @@ const Footer = () => {
             className="bg-pink-500 text-white text-2xl md:text-3xl p-3 rounded-full hover:bg-pink-700 transition"
           >
             <FaInstagram />
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black text-white text-2xl md:text-3xl p-3 rounded-full hover:bg-gray-800 transition"
+          >
+            <FaXTwitter />
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-700 text-white text-2xl md:text-3xl p-3 rounded-full hover:bg-blue-900 transition"
+          >
+            <FaLinkedinIn />
           </a>
         </div>
       </div>
