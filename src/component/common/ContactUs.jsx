@@ -30,7 +30,7 @@ const ContactUs = () => {
             href="tel:+17807283026"
             className="text-orange-600 font-semibold block mt-1"
           >
-            +1 780-728-3026
+            
           </a>
         </div>
 
