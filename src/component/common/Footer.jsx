@@ -10,7 +10,7 @@ const Footer = () => {
         </h2>
         <div className="flex justify-center gap-6 mt-10">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/softechcore/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 text-white text-2xl md:text-3xl p-3 rounded-full hover:bg-blue-800 transition"
@@ -18,7 +18,7 @@ const Footer = () => {
             <FaFacebookF />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/soft_coretechnologies/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-pink-500 text-white text-2xl md:text-3xl p-3 rounded-full hover:bg-pink-700 transition"
@@ -26,7 +26,7 @@ const Footer = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/technologi43645"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black text-white text-2xl md:text-3xl p-3 rounded-full hover:bg-gray-800 transition"
