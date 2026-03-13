@@ -24,7 +24,8 @@ const ContactUs = () => {
             Softcore Technologies
           </h3>
           <p className="text-gray-600 text-sm md:text-base">
-            4629 3 Avenue, Edson, Alberta T7E 1C2, Canada
+            {/* 4629 3 Avenue, Edson, Alberta T7E 1C2, Canada */}
+            suite 200 - 1212 - 1st se - calgary AB T2G-2H8
           </p>
           <a
             href="tel:+17807283026"
@@ -51,7 +52,7 @@ const ContactUs = () => {
         </button>
 
         <div className="w-full h-80 md:h-96">
-          <iframe
+          {/* <iframe
             title="Softcore Technologies Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2141.2829306660183!2d-116.441073!3d53.5831544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x539ff58a60c6f935%3A0x52d8fd65d9a4fccc!2s4629%203%20Ave%2C%20Edson%2C%20AB%20T7E%201C2%2C%20Canada!5e0!3m2!1sen!2sin!4v1686059327638!5m2!1sen!2sin"
             width="100%"
@@ -60,7 +61,17 @@ const ContactUs = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+          ></iframe> */}
+          <iframe
+            title="Softcore Technologies Location"
+            src="https://www.google.com/maps?q=1212+1+St+SE+Suite+200+Calgary+AB+T2G+2H8+Canada&output=embed"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
         </div>
       </div>
     </>
