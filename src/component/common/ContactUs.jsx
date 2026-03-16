@@ -28,10 +28,10 @@ const ContactUs = () => {
             suite 200 - 1212 - 1st se - calgary AB T2G-2H8
           </p>
           <a
-            href="tel:+17807283026"
+            href="tel:+14034777967"
             className="text-orange-600 font-semibold block mt-1"
           >
-            
+            +1 403-477-7967
           </a>
         </div>
 
