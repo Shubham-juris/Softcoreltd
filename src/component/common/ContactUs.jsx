@@ -29,19 +29,17 @@ const ContactUs = () => {
             <hr></hr>
             4629 3rd Avenue Edison, Alberta, Calgary T7E 1C2, Canada
           </p> */}
-        <div className="text-gray-600 text-sm md:text-base text-center leading-relaxed">
-  <p>Suite 200 - 1212 - 1st SE, Calgary AB T2G 2H8</p>
+        <p className="text-gray-600 text-sm md:text-base text-center leading-relaxed">
+  Suite 200 - 1212 - 1st SE, Calgary AB T2G 2H8
+</p>
 
-  <div className="flex items-center justify-center my-4">
-    <div className="flex-grow border-t border-gray-300"></div>
-    <span className="mx-3 text-xs text-gray-400 uppercase tracking-wider">
-      OR
-    </span>
-    <div className="flex-grow border-t border-gray-300"></div>
-  </div>
-
-  <p>4629 3rd Avenue, Calgary, Alberta T7E 1C2, Canada</p>
+<div className="flex justify-center my-3">
+  <div className="w-16 h-px bg-gray-300"></div>
 </div>
+
+<p className="text-gray-600 text-sm md:text-base text-center leading-relaxed">
+  4629 3rd Avenue, Calgary, Alberta T7E 1C2, Canada
+</p>
           <a
             href="tel:+14034777967"
             className="text-orange-600 font-semibold block mt-1"
