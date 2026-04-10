@@ -23,12 +23,25 @@ const ContactUs = () => {
           <h3 className="text-base md:text-lg font-semibold">
             Softcore Technologies
           </h3>
-          <p className="text-gray-600 text-sm md:text-base">
+          {/* <p className="text-gray-600 text-sm md:text-base">
             {/* 4629 3 Avenue, Edson, Alberta T7E 1C2, Canada */}
             suite 200 - 1212 - 1st se - calgary AB T2G-2H8<br></br>
             <hr></hr>
             4629 3rd Avenue Edison, Alberta, Calgary T7E 1C2, Canada
-          </p>
+          </p> */}
+        <div className="text-gray-600 text-sm md:text-base text-center leading-relaxed">
+  <p>Suite 200 - 1212 - 1st SE, Calgary AB T2G 2H8</p>
+
+  <div className="flex items-center justify-center my-4">
+    <div className="flex-grow border-t border-gray-300"></div>
+    <span className="mx-3 text-xs text-gray-400 uppercase tracking-wider">
+      OR
+    </span>
+    <div className="flex-grow border-t border-gray-300"></div>
+  </div>
+
+  <p>4629 3rd Avenue, Calgary, Alberta T7E 1C2, Canada</p>
+</div>
           <a
             href="tel:+14034777967"
             className="text-orange-600 font-semibold block mt-1"
