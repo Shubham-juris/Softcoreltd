@@ -29,13 +29,13 @@ const ContactUs = () => {
             <hr></hr>
             4629 3rd Avenue Edison, Alberta, Calgary T7E 1C2, Canada
           </p>  */}
-        <p className="text-gray-600 text-sm md:text-base text-center leading-relaxed">
+        <p className="text-gray-600 text-sm md:text-base text-center">
   Suite 200 - 1212 - 1st SE, Calgary AB T2G 2H8
 </p>
 
 <hr className="w-20 mx-auto my-3 border-t border-gray-300" />
 
-<p className="text-gray-600 text-sm md:text-base text-center leading-relaxed">
+<p className="text-gray-600 text-sm md:text-base text-center">
   4629 3rd Avenue, Calgary, Alberta T7E 1C2, Canada
 </p>
      
