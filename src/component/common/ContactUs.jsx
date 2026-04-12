@@ -31,7 +31,7 @@ const ContactUs = () => {
 <hr className="w-20 mx-auto my-3 border-t border-gray-300" />
 
 <p className="text-gray-600 text-sm md:text-base text-center">
-  4629 3rd Avenue, Calgary, Alberta T7E 1C2, Canada
+  4629 3rd Avenue Edson, Calgary, Alberta T7E 1C2, Canada
 </p>
      
           <a
