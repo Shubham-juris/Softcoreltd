@@ -28,6 +28,11 @@ const Home = () => {
           <p className="mb-6 text-base md:text-lg">
             Discover innovative software solutions for your business needs.
           </p>
+          <p className="mb-6 text-base md:text-lg">
+          We’re upgrading our site
+          <span className="mx-2 text-yellow-400">★</span>
+          to serve you better. Stay tuned for a brand-new experience.
+        </p>
         <a href='#contact'>
         <button className="bg-white mb-2 mt-5 text-black font-semibold py-2 px-5 md:py-3 md:px-6 rounded hover:bg-gray-200 transition">
             GET STARTED TODAY
